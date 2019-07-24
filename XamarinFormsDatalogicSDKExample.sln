@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFormsDatalogicSDKExample.Android", "XamarinFormsDatalogicSDKExample\XamarinFormsDatalogicSDKExample.Android\XamarinFormsDatalogicSDKExample.Android.csproj", "{D580D65A-D73B-4BF7-BB2A-D0BEA171BE05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFormsDatalogicSDKExample", "XamarinFormsDatalogicSDKExample\XamarinFormsDatalogicSDKExample\XamarinFormsDatalogicSDKExample.csproj", "{7CB769FC-7CA1-4E7F-872C-F9B08B338CFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D580D65A-D73B-4BF7-BB2A-D0BEA171BE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D580D65A-D73B-4BF7-BB2A-D0BEA171BE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D580D65A-D73B-4BF7-BB2A-D0BEA171BE05}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D580D65A-D73B-4BF7-BB2A-D0BEA171BE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D580D65A-D73B-4BF7-BB2A-D0BEA171BE05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D580D65A-D73B-4BF7-BB2A-D0BEA171BE05}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7CB769FC-7CA1-4E7F-872C-F9B08B338CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB769FC-7CA1-4E7F-872C-F9B08B338CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB769FC-7CA1-4E7F-872C-F9B08B338CFE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7CB769FC-7CA1-4E7F-872C-F9B08B338CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB769FC-7CA1-4E7F-872C-F9B08B338CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB769FC-7CA1-4E7F-872C-F9B08B338CFE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {469F0511-653C-4935-9362-4E31288EB355}
+	EndGlobalSection
+EndGlobal
