@@ -22,6 +22,7 @@ https://datalogic.github.io/xamarin/quick-start/#Android%20manifest
         private readonly string LOGTAG = typeof(MainActivity).Name;
         BarcodeManager decoder = null;
     3.3 - Add code below into MainActivity class
+    
         protected override void OnResume()
         {
             base.OnResume();
@@ -77,8 +78,8 @@ https://datalogic.github.io/xamarin/quick-start/#Android%20manifest
 4- Update ItemsViewModel class to receive the barcode text ( Thanks Xamarin Forum member https://forums.xamarin.com/profile/AlessandroCaliaro )
 https://forums.xamarin.com/discussion/comment/383665#Comment_383665
     4.1 - Inside ItemsViewModel Constructor, add code below
+    
             MessagingCenter.Subscribe<App, string>(this, "Barcode", async (sender, thebarcode) => {
-
                 Items.Clear();
                 Item i = new Item() { Text = thebarcode, Description = DateTime.Now.ToString() };
                 Items.Add(i);
