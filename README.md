@@ -77,6 +77,7 @@ https://datalogic.github.io/xamarin/quick-start/#Android%20manifest
         }
 4- Update ItemsViewModel class to receive the barcode text ( Thanks Xamarin Forum member https://forums.xamarin.com/profile/AlessandroCaliaro )
 https://forums.xamarin.com/discussion/comment/383665#Comment_383665
+
     4.1 - Inside ItemsViewModel Constructor, add code below
     
             MessagingCenter.Subscribe<App, string>(this, "Barcode", async (sender, thebarcode) => {
