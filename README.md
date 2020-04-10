@@ -10,10 +10,10 @@ This Xamarin.Forms app is default MasterDetailApp while creating new Xamarin.For
 After creating the app, here are the steps to get it working.
 
 1 - Install Datalogic Xamarin SDK from NuGet 
-https://datalogic.github.io/xamarin/quick-start/#NuGet
+https://datalogic.github.io/xamarin/overview#nuget
 
 2 - Update Android Manifest file
-https://datalogic.github.io/xamarin/quick-start/#Android%20manifest
+https://datalogic.github.io/xamarin/overview#android-manifest
 
 3- Update MainActivity.cs file located in Android Project.
 
